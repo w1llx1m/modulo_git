@@ -1,5 +1,5 @@
 import requests
-from base64 import BeautifulSoup
+from bs4 import BeautifulSoup
 import csv
 
 response = requests.get('https://g1.globo.com/')
